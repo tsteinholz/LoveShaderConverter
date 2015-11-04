@@ -4,6 +4,6 @@ This is a pretty straight forrward program that simpily converts the GLSL used i
 ## Commands and Arguments Usage
 To call the program you have to be using a command line (bat or shell script works)
 
-    LoveShaderConverter FILE-TO-CONVERT.glsl
+    LoveShaderConverter <FileName>
   
-This creates `FILE-TO-CONVERT.glsl.bak` which contains the original code you copied from [Shader Toy](https://www.shadertoy.com/) and changes to contents of `FILE-TO-CONVERT.glsl` to have the GLSL that can be easily used by [LÖVE ](https://love2d.org/).
+This creates `<FileName>.bak` which contains the original code you copied from [Shader Toy](https://www.shadertoy.com/) and changes to contents of `<FileName>` to have the GLSL that can be easily used by [LÖVE ](https://love2d.org/).
