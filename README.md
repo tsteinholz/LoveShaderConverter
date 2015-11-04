@@ -7,3 +7,10 @@ To call the program you have to be using a command line (bat or shell script wor
     LoveShaderConverter <FileName>
   
 This creates `<FileName>.bak` which contains the original code you copied from [Shader Toy](https://www.shadertoy.com/) and changes to contents of `<FileName>` to have the GLSL that can be easily used by [LÖVE ](https://love2d.org/).
+
+## What is missing?
+ * Multi-channel support
+  
+## How to implement in [LÖVE](https://love2d.org/)
+Work in progress
+ 
