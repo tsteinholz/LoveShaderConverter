@@ -10,6 +10,8 @@ This creates `<FileName>.bak` which contains the original code you copied from [
 
 ## What is missing?
  * Multi-channel support
+ * More Documentation
+ * Community Support / Recognition
   
 ## How to implement in [LÖVE](https://love2d.org/)
 Work in progress
