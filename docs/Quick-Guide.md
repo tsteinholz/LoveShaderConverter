@@ -47,7 +47,7 @@ local canvas
 ```
 The output from the conversion told us we need the time
 ```lua
-local time
+local time = 0
 ```
 
 Now lets implement the load function!
