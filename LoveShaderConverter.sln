@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoveShaderConverter", "LoveShaderConverter\LoveShaderConverter.vcxproj", "{09EF9FA7-07FE-49EE-8552-3573CD491C5D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoveShaderConverter", "src\LoveShaderConverter.vcxproj", "{09EF9FA7-07FE-49EE-8552-3573CD491C5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
