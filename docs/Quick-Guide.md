@@ -38,12 +38,17 @@ Love2D project, make a `conf.lua` and `main.lua` and give the files the accordin
 ![alt text](https://raw.githubusercontent.com/tsteinholz/LoveShaderConverter/master/docs/imgs/step-5.png "Step 5")
 
 Lets start with our local variables. We are loading a shader so lets add
-    local shader
+```lua
+local shader
+```
 We are going to render the shader to a canvas
-    local canvas
+```lua
+local canvas
+```
 The output from the conversion told us we need the time
-    local time
-
+```lua
+local time
+```
 
 Now lets implement the load function!
 ```lua
