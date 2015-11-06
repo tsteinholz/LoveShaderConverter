@@ -36,12 +36,6 @@
 
 #include "stdafx.h"
 
-#include <boost/algorithm/string/replace.hpp>
-
-#include <iostream>
-#include <sstream>
-#include <fstream>
-
 using namespace std;
 
 // TODO : Add multi input channel support

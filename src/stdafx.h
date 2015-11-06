@@ -7,11 +7,14 @@
 
 #if _WIN32 
 #include "targetver.h"
-#endif
-
 #include <stdio.h>
 #include <tchar.h>
+#endif
 
+#include <boost/algorithm/string/replace.hpp>
 
+#include <iostream>
+#include <sstream>
+#include <fstream>
 
 // TODO: reference additional headers your program requires here
