@@ -40,12 +40,27 @@
 
 using namespace std;
 
-bool file_exist(const char *file)
+// TODO : Add multi input channel support
+
+/*
+ * Replace all substrings in a string with a string
+ *
+ * @param str The string to modify
+ * @param x The substring you want to replace
+ * @param y What you want to replace x with
+ */
+void replace_all(string& str, const char* x, const char* y)
 {
-    ifstream input(file);
-    return input.good();
+    // TODO : Get off boost
 }
 
+/*
+ * Load a string from a file on the system
+ *
+ * @param file The file you want to load
+ *
+ * @returns The file contents
+ */
 string load_file(const char *file)
 {
     ifstream input(file);
@@ -62,11 +77,11 @@ int main(int argc, char* argv[])
     if (file_name != NULL)
     {
         string file_contents = load_file(file_name);
-        if (file_exist(file_name) && file_contents != "")
+        if (file_contents != "")
         {
             cout << "Starting conversion!" << endl;
-            string head = "",
-                   tail = "vec4 effect(vec4 color, Image texture, vec2 texture_coords, vec2 pixel_coords){\n"
+            string header = "",
+                   footer = "vec4 effect(vec4 color, Image texture, vec2 texture_coords, vec2 pixel_coords){\n"
                            "    vec2 fragCoord = texture_coords * iResolution.xy;\n"
                            "    mainImage( color, fragCoord );\n"
                            "    return color;\n"
@@ -86,27 +101,27 @@ int main(int argc, char* argv[])
             cout << "You will need to send these variables to the shader:" << endl;
             if (file_contents.find("iResolution") != string::npos)
             {
-                head += "extern vec3 iResolution;\n";
+                header += "extern vec3 iResolution;\n";
                 cout << "\t- vec3    iResolution [viewport resolution (in pixels)]" << endl;
             }
             if (file_contents.find("iGlobalTime") != string::npos)
             {
-                head += "extern number iGlobalTime;\n";
+                header += "extern number iGlobalTime;\n";
                 cout << "\t- number  iGlobalTime [shader playback time (in seconds)]" << endl;
             }
             if (file_contents.find("iMouse") != string::npos)
             {
-                head += "extern vec4 iMouse;\n";
+                header += "extern vec4 iMouse;\n";
                 cout << "\t- vec4    iMouse [mouse pixel coords. xy: current (if MLB down), zw: click]" << endl;
             }
             if (file_contents.find("iChannel") != string::npos)
             {
-                head += "extern Image iChannel\n";
+                header += "extern Image iChannel\n";
                 cout << "\t- Image   iChannel [input channel]" << endl;
             }
 
             ofstream output(file_name);
-            output << head << "\n\n\n" << file_contents << "\n\n\n" << tail;
+            output << header << "\n\n" << file_contents << "\n\n" << footer;
         }
         else cerr << "ERROR: File '" << file_name << "' does not exsit!" << endl;
     }
