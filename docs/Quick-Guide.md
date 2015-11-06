@@ -35,6 +35,7 @@ This is where the tutorial stops for you if you plan to implement anything diffr
 a window for the sole purpose of rendering this shader and nothing else. So on that note, you need to set up a new
 Love2D project, make a `conf.lua` and `main.lua` and give the files the according methods.
 
+![alt text](https://raw.githubusercontent.com/tsteinholz/LoveShaderConverter/master/docs/imgs/step-5.png "Step 5")
 
 Lets start with our local variables. We are loading a shader so lets add
     local shader
@@ -78,7 +79,6 @@ Last and definatly not least, the draw function
       love.graphics.draw(canvas,0,0,0,1,1,0,0)
     end
 ```
-![alt text](https://raw.githubusercontent.com/tsteinholz/LoveShaderConverter/master/docs/imgs/step-5.png "Step 5")
 
 ### Step 6 : Hit that run button
 The moment you have been waiting for, a beautiful shader rendered by love2d. Have fun ;)
