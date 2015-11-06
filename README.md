@@ -15,4 +15,4 @@ This creates `<FileName>.bak` which contains the original code you copied from [
  * Multi-channel support
  * Remove boost?
  * Official Builds (Windows, Mac)
- * Generate Love Project that renders picture optionaly with [-g:--generate] flag?
+ * Generate Love Project that renders shader with [-g:--generate] flag?
