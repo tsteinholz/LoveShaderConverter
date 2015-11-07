@@ -16,25 +16,25 @@ On Windows, run the file `LoveShaderConverter.bat`, this will give you a working
 # Quick Guide
 Here is a quick guid / demo using the software and how to implent it in love.
 
-### Step 1 : Go Shopping
+### Step 1 : Go Shopping :handbag:
 Go to [Shader Toys](https://www.shadertoy.com/) and pick out a shader you would like to implement. For this demo,
 I chose [This Shader](https://www.shadertoy.com/view/Mss3WN).
 
 ![alt text](https://raw.githubusercontent.com/tsteinholz/LoveShaderConverter/master/docs/imgs/step-1.png "Step 1")
 
-### Step 2 : Copy the Source
+### Step 2 : Copy the Source :clipboard:
 
 Of coure keep in mind licenses and do-not steal code. Only when a license permits you to, copy-and-paste the
 entirety of the code.
 
 ![alt text](https://raw.githubusercontent.com/tsteinholz/LoveShaderConverter/master/docs/imgs/step-2.png "Step 2")
 
-### Step 3 : Paste
+### Step 3 : Paste :pencil2:
 Simply paste your clipboard to a file and save it as something.
 
 ![alt text](https://raw.githubusercontent.com/tsteinholz/LoveShaderConverter/master/docs/imgs/step-3.png "Step 3")
 
-## Step 4: Convert
+## Step 4: Convert :nut_and_bolt:
 Here's the fun part. Make sure you have a download of this project somewhere you can use it, in the command line,
 in a shell script, in a bat file, somewhere put down this command.
 
@@ -45,7 +45,7 @@ application will notify you.
 
 ![alt text](https://raw.githubusercontent.com/tsteinholz/LoveShaderConverter/master/docs/imgs/step-4.png "Step 4")
 
-## Step 5 : Integrate with Love 2D
+## Step 5 : Integrate with Love 2D :bulb:
 This is where the tutorial stops for you if you plan to implement anything diffrently, for this demo I am making
 a window for the sole purpose of rendering this shader and nothing else. So on that note, you need to set up a new
 Love2D project, make a `conf.lua` and `main.lua` and give the files the according methods.
@@ -102,7 +102,7 @@ end
 
 Full [main.lua](https://github.com/tsteinholz/LoveShaderConverter/blob/master/docs/demo/main.lua) file can be found here.
 
-### Step 6 : Hit that run button
+### Step 6 : Hit that run button :8ball:
 The moment you have been waiting for, a beautiful shader rendered by love2d. Have fun ;)
 
 ![alt text](https://raw.githubusercontent.com/tsteinholz/LoveShaderConverter/master/docs/imgs/step-6.png "Step 6")
