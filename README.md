@@ -67,37 +67,37 @@ local time = 0
 
 Now lets implement the load function!
 ```lua
-    function love.load(arg)
-        -- Load the shader from the file we generated
-        shader = love.graphics.newShader('MetaHexaBalls.glsl')
-        -- Create a new Canvas to draw to
-        canvas = love.graphics.newCanvas(800, 600)
-    end
+function love.load(arg)
+    -- Load the shader from the file we generated
+    shader = love.graphics.newShader('MetaHexaBalls.glsl')
+    -- Create a new Canvas to draw to
+    canvas = love.graphics.newCanvas(800, 600)
+end
 ```
 
 Next the Update Function
 ```lua    
-    function love.update(dt)
-        -- increment our pseudo time variable
-        time = dt + time;
-        -- When converting, the following variables were requested from the shader...
-        shader:send('iResolution', { love.window.getWidth(), love.window.getHeight(), 1 })
-        shader:send('iGlobalTime', time)
-        shader:send('iMouse', {love.mouse.getX(),love.mouse.getY(),love.mouse.getX(),love.mouse.getY()})
-    end
+function love.update(dt)
+    -- increment our pseudo time variable
+    time = dt + time;
+    -- When converting, the following variables were requested from the shader...
+    shader:send('iResolution', { love.window.getWidth(), love.window.getHeight(), 1 })
+    shader:send('iGlobalTime', time)
+    shader:send('iMouse', {love.mouse.getX(),love.mouse.getY(),love.mouse.getX(),love.mouse.getY()})
+end
 ```
 
 Last and definatly not least, the draw function
 ```lua
-    function love.draw()
-      love.graphics.setCanvas(canvas)
-      love.graphics.setShader(shader)
-      love.graphics.draw(canvas)
-      love.graphics.setShader()
-      love.graphics.setCanvas()
+function love.draw()
+    love.graphics.setCanvas(canvas)
+    love.graphics.setShader(shader)
+    love.graphics.draw(canvas)
+    love.graphics.setShader()
+    love.graphics.setCanvas()
 
-      love.graphics.draw(canvas,0,0,0,1,1,0,0)
-    end
+    love.graphics.draw(canvas,0,0,0,1,1,0,0)
+end
 ```
 
 ### Step 6 : Hit that run button
