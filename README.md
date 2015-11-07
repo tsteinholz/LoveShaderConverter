@@ -81,7 +81,7 @@ Next the Update Function
         -- When converting, the following variables were requested from the shader...
         shader:send('iResolution', { love.window.getWidth(), love.window.getHeight(), 1 })
         shader:send('iGlobalTime', time)
-        shader:send('iMouse', { love.mouse.getX(), love.mouse.getY(), love.mouse.getX(), love.mouse.getY() })
+        shader:send('iMouse', {love.mouse.getX(),love.mouse.getY(),love.mouse.getX(),love.mouse.getY()})
     end
 ```
 
@@ -106,5 +106,5 @@ The moment you have been waiting for, a beautiful shader rendered by love2d. Hav
 ## What is missing?
  * Multi-channel support
  * Remove boost?
- * Official Builds (Windows, Mac)
+ * Official Builds (Mac)
  * Generate Love Project that renders shader with [-g:--generate] flag?
