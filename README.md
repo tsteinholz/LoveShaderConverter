@@ -100,6 +100,8 @@ function love.draw()
 end
 ```
 
+Full [main.lua](https://github.com/tsteinholz/LoveShaderConverter/blob/master/docs/demo/main.lua) file can be found here.
+
 ### Step 6 : Hit that run button
 The moment you have been waiting for, a beautiful shader rendered by love2d. Have fun ;)
 
