@@ -111,4 +111,5 @@ The moment you have been waiting for, a beautiful shader rendered by love2d. Hav
  * Multi-channel support
  * Remove boost?
  * Official Builds (Mac)
+ * Flags? For example...
  * Generate Love Project that renders shader with [-g:--generate] flag?
