@@ -107,9 +107,10 @@ The moment you have been waiting for, a beautiful shader rendered by love2d. Hav
 
 ![alt text](https://raw.githubusercontent.com/tsteinholz/LoveShaderConverter/master/docs/imgs/step-6.png "Step 6")
 
-## What is missing?
+## What is missing? / To do
  * Multi-channel support
  * Remove boost?
- * Official Builds (Mac)
+ * Official Builds on Mac
+ * Add license terms and a modified change list in the header
  * Flags? For example...
  * Generate Love Project that renders shader with [-g:--generate] flag?
