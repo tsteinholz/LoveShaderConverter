@@ -1,4 +1,4 @@
-# :beginner: Löve 2D Shader Converter [![Build Status](https://javabilities.com/jenkins/job/Love%20Shader%20Converter/badge/icon)](https://javabilities.com/jenkins/job/Love%20Shader%20Converter/)
+# :beginner: Löve 2D Shader Cönverter [![Build Status](https://javabilities.com/jenkins/job/Love%20Shader%20Converter/badge/icon)](https://javabilities.com/jenkins/job/Love%20Shader%20Converter/)
 This is a pretty straight forrward program that simpily converts the GLSL used in the [Shader Toy](https://www.shadertoy.com/) which is based on ES; to a version of GLSL that can be used by [LÖVE ](https://love2d.org/), which is based on GLSL 1.2 with custom calls for lua.
 
 ## Releases
