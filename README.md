@@ -1,4 +1,4 @@
-# :beginner: Love Shader Converter [![Build Status](https://javabilities.com/jenkins/job/Love%20Shader%20Converter/badge/icon)](https://javabilities.com/jenkins/job/Love%20Shader%20Converter/)
+# :beginner: Löve 2D Shader Converter [![Build Status](https://javabilities.com/jenkins/job/Love%20Shader%20Converter/badge/icon)](https://javabilities.com/jenkins/job/Love%20Shader%20Converter/)
 This is a pretty straight forrward program that simpily converts the GLSL used in the [Shader Toy](https://www.shadertoy.com/) which is based on ES; to a version of GLSL that can be used by [LÖVE ](https://love2d.org/), which is based on GLSL 1.2 with custom calls for lua.
 
 ## Releases
@@ -87,7 +87,7 @@ function love.update(dt)
     -- When converting, the following variables were requested from the shader...
     shader:send('iResolution', { love.window.getWidth(), love.window.getHeight(), 1 })
     shader:send('iGlobalTime', time)
-    shader:send('iMouse', { love.mouse.getX(), love.mouse.getY(), 0, 1 })
+    shader:send('iMouse', { love.mouse.getX(), love.mouse.getY(), 0, 0 })
 end
 ```
 
@@ -111,7 +111,7 @@ The moment you have been waiting for, a beautiful shader rendered by love2d. Hav
 
 ![alt text](https://raw.githubusercontent.com/tsteinholz/LoveShaderConverter/master/docs/imgs/step-6.png "Step 6")
 
-## What is missing? / To do
+## TODO :
  * Multi-channel support
  * Remove boost?
  * Official Builds on Mac
