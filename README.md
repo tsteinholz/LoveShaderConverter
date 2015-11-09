@@ -1,8 +1,12 @@
 # :beginner: Love Shader Converter [![Build Status](https://javabilities.com/jenkins/job/Love%20Shader%20Converter/badge/icon)](https://javabilities.com/jenkins/job/Love%20Shader%20Converter/)
-This is a pretty straight forrward program that simpily converts the GLSL used in the [Shader Toy](https://www.shadertoy.com/) which is based on ES; to a version of GLSL that can be used by [LÖVE ](https://love2d.org/), which is based on GLSL 1.2 with custom calls.
+This is a pretty straight forrward program that simpily converts the GLSL used in the [Shader Toy](https://www.shadertoy.com/) which is based on ES; to a version of GLSL that can be used by [LÖVE ](https://love2d.org/), which is based on GLSL 1.2 with custom calls for lua.
+
+## Releases
+So far we only have builds for Windows (x32 & x64) and Linux, but none for Mac. So if you're on a mac and you want to use this application you will have to compile it yourself unfortunatly. If you are on a Windows or Linux system, you can check out our [releases](https://github.com/tsteinholz/LoveShaderConverter/releases) for the latest binaries.
+
 
 ## Legal
-Please do everyone a favor (including yourself) and look at the licencing of the shader you are trying to use. Please do not steal others work, and then claim it as yours. If you see a licence that is open-source, free to use, go ahead. Just make sure to read the terms the owner put on the file. Only when the author has not added a licence to the header of the document can you assume it is in the Public Domain, and use it for what-ever.
+This Program is under the M.I.T License, but all the shaders you convert with this program are entitled to their own licenses with their own terms. Please do your best to not infringe upon any of their terms because you will be held accountable for it.
 
 ## Commands and Arguments Usage
 To call the program you have to be using a command line (bat or shell script works)
