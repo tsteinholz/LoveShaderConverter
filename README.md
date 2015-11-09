@@ -87,7 +87,7 @@ function love.update(dt)
     -- When converting, the following variables were requested from the shader...
     shader:send('iResolution', { love.window.getWidth(), love.window.getHeight(), 1 })
     shader:send('iGlobalTime', time)
-    shader:send('iMouse', {love.mouse.getX(),love.mouse.getY(),love.mouse.getX(),love.mouse.getY()})
+    shader:send('iMouse', { love.mouse.getX(), love.mouse.getY(), 0, 1 })
 end
 ```
 
