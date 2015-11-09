@@ -114,7 +114,7 @@ int main(int argc, char* argv[])
 			}
 			if (file_contents.find("iChannel") != string::npos)
 			{
-				header += "extern Image iChannel\n";
+				header += "extern Image iChannel;\n";
 				cout << "\t- Image   iChannel [input channel]" << endl;
 			}
 
