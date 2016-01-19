@@ -118,3 +118,7 @@ The moment you have been waiting for, a beautiful shader rendered by love2d. Hav
  * Add license terms and a modified change list in the header
  * Flags? For example...
  * Generate Love Project that renders shader with [-g:--generate] flag?
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tsteinholz/loveshaderconverter/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
