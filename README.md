@@ -1,4 +1,5 @@
-# :beginner: Löve 2D Shader Cönverter [![Build  Status](https://javabilities.com/jenkins/job/Love%20Shader%20Converter/badge/icon)](https://javabilities.com/jenkins/job/Love%20Shader%20Converter/)
+# :beginner: Löve 2D Shader Cönverter [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tsteinholz/loveshaderconverter/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 This is a pretty straight forrward program that simpily converts the GLSL used in the [Shader Toy](https://www.shadertoy.com/) which is based on ES; to a version of GLSL that can be used by [LÖVE ](https://love2d.org/), which is based on GLSL 1.2 with custom calls for lua.
 
 ## Releases
@@ -118,7 +119,3 @@ The moment you have been waiting for, a beautiful shader rendered by love2d. Hav
  * Add license terms and a modified change list in the header
  * Flags? For example...
  * Generate Love Project that renders shader with [-g:--generate] flag?
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tsteinholz/loveshaderconverter/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
