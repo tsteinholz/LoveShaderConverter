@@ -1,4 +1,4 @@
-# :beginner: Löve 2D Shader Cönverter [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tsteinholz/loveshaderconverter/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+# :beginner: Löve 2D Shader Cönverter 
 
 This is a pretty straight forrward program that simpily converts the GLSL used in the [Shader Toy](https://www.shadertoy.com/) which is based on ES; to a version of GLSL that can be used by [LÖVE ](https://love2d.org/), which is based on GLSL 1.2 with custom calls for lua.
 
